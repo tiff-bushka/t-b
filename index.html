@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" media="all" href="./style.css">
+<link rel="stylesheet" type="text/css" href="./slick.css">
+<link rel="stylesheet" type="text/css" href="./jquery-ui.css">
+
+<meta charset="UTF-8">
+<title>tiff bushka</title>
+</head>
+
+
+
+<body>
+
+	
+	<div id="infopage"><div class="text-container">
+		<div>
+			<span class="jump active">
+			<span class="j1">t</span><span class="j2">i</span><span class="j3">f</span><span class="j4">f</span><span class="j5">&nbsp;</span><span class="j6">b</span><span class="j7">u</span><span class="j8">s</span><span class="j9">h</span><span class="j10">k</span><span class="j11">a</span>
+			</span>
+			<br><a href="mailto:tbushka@risd.edu">tbushka@risd.edu</a>
+		</div>
+		</div>
+		<div class="hideinfo">✕</div>
+	</div>
+	
+	<div id="info">T⌇B</div>
+		
+	<div class="cursor-triggerL"></div>
+		<div class="cursor-triggerR"></div>
+
+				<div id="container">
+
+		<div class="slider">
+		
+		
+		
+		<div class="slide"><img src="./images/IMG_7232.jpg"></div>
+		<div class="slide"><img src="./images/IMG_7239.jpg"></div>
+		<div class="slide"><img src="./images/IMG_7230.jpg"></div>
+		<div class="slide"><img src="./images/IMG_7251.jpg"></div>
+		<div class="slide"><img src="./images/IMG_7253.jpg"></div>
+		<div class="slide"><img src="./images/IMG_7259.jpg"></div>
+		<div class="slide"><img src="./images/IMG_7269.jpg"></div>
+
+				
+	
+
+					
+		</div>
+		</div>
+		
+	<div class="pagingInfo"></div>
+
+				
+
+				
+
+	
+		
+	<script src="./jquery-3.2.1.min.js"></script>
+	<script src="./jquery-ui.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script> 
+
+
+	
+	//INFO PAGE
+	
+
+	$("#info").click(function(){
+        $("#infopage").fadeToggle(150);
+    });
+	
+    $(".hideinfo").click(function(){
+        $("#infopage").fadeOut(150);
+    });	
+
+    
+	
+	
+	</script>
+	<script src="./modal.js"></script>
+	<script src="./slick.js" type="text/javascript" charset="utf-8"></script>
+
+
+		
+	<script type="text/javascript">
+		
+		//PRIMARY SLIDER SCRIPT
+		
+		var $slickElement = $('.slider');
+		var $status = $('.pagingInfo');
+
+      $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+          //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+          var i = (currentSlide ? currentSlide : 0) + 1;
+          $status.text(i + '/' + slick.slideCount);
+      });
+		
+$(document).ready(function() {
+	
+  $('.slider').slick({
+    dots: false,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    //prevArrow: '<span class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;">Previous</span>',
+   // nextArrow: '<span class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;">Next</span>',
+	  customPaging : function(slider, i) {
+    var thumb = $(slider.$slides[i]).data();
+    return '<a>1</a>';
+            }
+
+  });
+
+});
+		
+		//ARROW KEYS FIX
+		
+		var $carousel = $('.slider');
+$(document).on('keydown', function(e) {
+                if(e.keyCode == 37) {
+                    $carousel.slick('slickPrev');
+                }
+                if(e.keyCode == 39) {
+                    $carousel.slick('slickNext');
+                }
+            });
+		
+		//CURSOR NAVIGATION
+		
+$('.cursor-triggerL').on('click', function() {
+                    $('.slider').slick('slickPrev');
+                });
+         
+		
+$('.cursor-triggerR').on('click', function() {
+                    $('.slider').slick('slickNext');
+                });
+    
+		
+	
+		
+</script>
+
+	
+</body>
+</html>
