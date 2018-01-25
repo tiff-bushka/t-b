@@ -11,6 +11,12 @@
   outline: 0;
 }
 
+::selection {
+	background: rgba(255, 255, 255, 0.996);
+	color:black;
+	mix-blend-mode: color;
+}
+
 :root {
   --text-color:black;
   --hover-color:black;
@@ -161,6 +167,17 @@ a:active {text-decoration:none;}
 	overflow: visible;
 	cursor: default;
 	
+}
+
+#infopage .buffer {
+	content:"";
+	position: absolute;
+	width:88px;
+	margin-left:-88px;
+	height:100vh;
+	background-color:white;
+	top:0;
+	left:0;
 }
 
 #infopage a {color:white; border-color:white;}
