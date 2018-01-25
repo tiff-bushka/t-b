@@ -26,8 +26,9 @@
 
 
 @font-face {
-    font-family: 'Neue Haas';
-    src: url('./SuisseIntl-Book.otf') format('opentype');
+    font-family: 'Atto';
+    src: url('./Atto-Medium.woff') format('woff'),
+		url('./Atto-Medium.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 
@@ -38,12 +39,12 @@
 
 body {
 	background-color:var(--background-color);
-	font-family: 'Neue Haas', 'Helvetica Neue', 'Helvetica', 'Arial', monospace; 
+	font-family: 'Atto', 'Helvetica Neue', 'Helvetica', 'Arial', monospace; 
 	font-size:50px;
 	line-height: 0;
 	margin:0px;
 	padding:0px;
-	letter-spacing:0.075em;
+	letter-spacing:0.03em;
 	baseline-shift: 20%;
 }
 
@@ -51,10 +52,11 @@ a {
 	color:var(--text-color);
 	text-decoration: none;
 	cursor:pointer;
+	border-bottom: solid .075em black;
 }
 
 a:hover {
-	border-bottom: solid .075em black;
+border:none;
 }
 
 img {
@@ -167,12 +169,14 @@ a:active {text-decoration:none;}
 	color:white;
 	height:100vh;
 	width:100%;
-	line-height: 62px;
+	font-size:12vh;
+	line-height:14vh;
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
+	text-align:center;
+
 }
 
 #infopage .credit {
@@ -204,7 +208,6 @@ a:active {text-decoration:none;}
 	left:40px;
 	z-index:5;
 	cursor: pointer;
-	
 	transform-origin:top left; 
 	transform: rotate(90deg);
 	color:var(--text-color);
@@ -212,6 +215,24 @@ a:active {text-decoration:none;}
     -moz-user-select: none; /* mozilla browsers */
     -khtml-user-select: none; /* webkit (konqueror) browsers */
     -ms-user-select: none; /* */
+}
+
+#info:active:after {
+-webkit-transition-duration: 0.5s;
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+transition-duration: 0.5s;
+-webkit-transition-property: -webkit-transform;
+-moz-transition-property: -moz-transform;
+-o-transition-property: -o-transform;
+transition-property: transform; }
+
+#info::after {
+-webkit-transform: rotate(46deg);
+-moz-transform: rotate(46deg);
+-o-transform: rotate(46deg);
+-ms-transform: rotate(46deg);
+transform: rotate(46deg);
 }
 
 
@@ -251,7 +272,8 @@ a:active {text-decoration:none;}
     -webkit-perspective: 1000;
     -moz-perspective: 1000;
     -ms-perspective: 1000;
-    perspective: 1000
+    perspective: 1000;
+	text-transform: capitalize;
 }
 
 .jump span {
@@ -392,14 +414,15 @@ a:active {text-decoration:none;}
 
 .pagingInfo {
 	position:absolute;
-	bottom:40px;
-	right:20px;
+	bottom:42px;
+	right:22px;
 	line-height: 0px;
 	text-align: right;
 	display:block;
 	pointer-events: none;
 	color:black;
 	z-index:4;
+
 }
 
 
@@ -410,7 +433,6 @@ a:active {text-decoration:none;}
 	z-index:3;
     font-size: 42px;
     line-height: 0;
-	font-family: 'NB';
     position: absolute;
     bottom: 42px;
 
@@ -448,7 +470,6 @@ a:active {text-decoration:none;}
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: 'NB';
     font-size: 0;
     line-height: 1;
 
@@ -554,7 +575,6 @@ a:active {text-decoration:none;}
 }
 .slick-dots li button:before
 {
-    font-family: 'NB';
     font-size: 24px;
     line-height: 20px;
 
