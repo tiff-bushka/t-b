@@ -15,7 +15,7 @@ fill:black;
 
 </style>
 
-<text y="50" transform="scale(-1,1) translate(-50,0)">⬅</text>
+<text y="50" transform="rotate(180) translate(-50, -62)">⬅</text>
 	
 	
 </svg>
