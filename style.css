@@ -288,6 +288,12 @@ transform: rotate(46deg);
 img {
 	max-width: 90vw;
     }
+	
+	.slick-slide
+{
+	height: 90vh !important;
+}
+	
 }
 /*jump animation */
 
