@@ -222,6 +222,7 @@ a:active {text-decoration:none;}
 
 #info {
 	position:fixed;
+	letter-spacing:-10px;
 	top:22px;
 	left:40px;
 	z-index:5;
