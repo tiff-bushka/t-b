@@ -278,7 +278,8 @@ transform: rotate(46deg);
 @media only screen and (max-width: 875px) {
        
 #infopage .text-container {
-	font-size: 10vw;
+	font-size: 8vw;
+	line-height:10vw;
 }
 	
 .cursor-triggerL, .cursor-triggerR {
@@ -293,6 +294,13 @@ img {
 {
 	height: 90vh !important;
 }
+	
+	#infopage .buffer {display:none;}
+	
+	#infopage {margin:0; height:100vh; width:100vw;}
+	
+	#infopage .hideinfo {color:white; top:44px; left:auto; right:18px;}
+	
 	
 }
 /*jump animation */
