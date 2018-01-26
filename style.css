@@ -275,13 +275,20 @@ transform: rotate(46deg);
 }
 
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
+@media only screen and (max-width: 875px) {
+       
+#infopage .text-container {
+	font-size: 10vw;
+}
+	
+.cursor-triggerL, .cursor-triggerR {
+		display: none;
+	}
+	
+img {
+	max-width: 90vw;
     }
 }
-
 /*jump animation */
 
 .jump {
