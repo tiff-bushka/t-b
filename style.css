@@ -280,6 +280,8 @@ transform: rotate(46deg);
 
 @media only screen and (max-width: 800px) {
        
+	body {height: 100%;}
+	
 #infopage .text-container {
 	font-size: 8vw;
 	line-height:10vw;
