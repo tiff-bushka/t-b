@@ -52,6 +52,7 @@ body {
 	padding:0px;
 	letter-spacing:0.03em;
 	baseline-shift: 20%;
+	overflow-y:hidden;
 }
 
 a {
