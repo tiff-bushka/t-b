@@ -275,7 +275,7 @@ transform: rotate(46deg);
 }
 
 
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 800px) {
        
 #infopage .text-container {
 	font-size: 8vw;
