@@ -16,7 +16,7 @@
 <body>
 
 	
-	<div id="infopage"><div class="buffer"></div><div class="text-container">
+	<div id="infopage"><div class="buffer toggle"></div><div class="text-container">
 		<div>
 			<span class="jump active">
 			<span class="j1">t</span><span class="j2">i</span><span class="j3">f</span><span class="j4">f</span><span class="j5">&nbsp;</span><span class="j6">b</span><span class="j7">u</span><span class="j8">s</span><span class="j9">h</span><span class="j10">k</span><span class="j11">a</span>
@@ -25,10 +25,10 @@
 			<a href="mailto:tbushka@risd.edu">tbushka@risd.edu</a>
 		</div>
 		</div>
-		<div class="hideinfo">✕</div>
+		<div class="hideinfo m-exit">✕</div>
 	</div>
 	
-	<div id="info">T⌇B</div>
+	<div id="info" class="toggle">T⌇B</div>
 		
 	<div class="cursor-triggerL"></div>
 		<div class="cursor-triggerR"></div>
@@ -115,12 +115,14 @@
 	//INFO PAGE
 	
 
-	$("#info").click(function(){
+	$(".toggle").click(function(){
         $("#infopage").fadeToggle(150);
+		$(".buffer").fadeToggle(150);
     });
 	
-    $(".hideinfo").click(function(){
+    $(".m-exit").click(function(){
         $("#infopage").fadeOut(150);
+		$(".buffer").fadeOut(150);
     });	
 
     

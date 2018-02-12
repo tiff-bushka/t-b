@@ -1,0 +1,21 @@
+<!--Scalable Vector Graphic-->
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink"  
+     width="50" 
+     height="50"
+	 id="exit">
+	
+	<style type="text/css">
+		
+
+text {
+font-size: 50px;
+fill:black;
+}
+
+</style>
+
+<text y="50">✕</text>
+	
+	
+</svg>
