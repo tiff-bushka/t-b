@@ -187,10 +187,6 @@ a:active {text-decoration:none;}
 		 cursor: url('./x.svg') 0 0, pointer !important;
 }
 
-.mail {
-	cursor: url('./mail.svg') 0 0, pointer !important;
-}
-
 #infopage a {color:white; border-color:white;}
 
 #infopage .text-container {
