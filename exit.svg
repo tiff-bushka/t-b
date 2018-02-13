@@ -2,8 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"  
      width="55" 
-     height="55"
-	 id="exit">
+     height="55">
 	
 	<style type="text/css">
 		
@@ -15,7 +14,7 @@ fill:black;
 
 </style>
 
-<text y="50">✕</text>
+<text y="45">✕</text>
 	
 	
 </svg>
