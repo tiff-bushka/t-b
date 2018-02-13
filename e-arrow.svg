@@ -1,9 +1,8 @@
 <!--Scalable Vector Graphic-->
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"  
-     width="70" 
-     height="70"
-	 id="arrow">
+     width="55" 
+     height="45">
 	
 	<style type="text/css">
 		
@@ -15,7 +14,7 @@ fill:black;
 
 </style>
 
-<text y="30" transform="rotate(180) translate(-50, -62)">⬅</text>
+<text y="60" transform="rotate(180) translate(-50, -62)">⬅</text>
 	
 	
 </svg>

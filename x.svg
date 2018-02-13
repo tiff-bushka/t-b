@@ -1,14 +1,15 @@
 <!--Scalable Vector Graphic-->
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"  
-     width="55" 
-     height="55">
+     width="45" 
+     height="47">
 	
 	<style type="text/css">
 		
 
 text {
-font-size: 60px;
+font-family:"Atto", Arial, sans-serif;
+font-size: 40px;
 fill:black;
 }
 

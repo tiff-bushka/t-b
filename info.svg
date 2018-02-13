@@ -1,9 +1,8 @@
 <!--Scalable Vector Graphic-->
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"  
-     width="55" 
-     height="55"
-	 id="info">
+     width="45" 
+     height="45">
 	
 	<style type="text/css">
 		
@@ -16,7 +15,7 @@ fill:black;
 
 </style>
 
-<text y="42" x="0">?</text>
+<text y="42" x="7.5">?</text>
 	
 	
 </svg>

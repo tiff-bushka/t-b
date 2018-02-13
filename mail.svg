@@ -1,21 +1,21 @@
 <!--Scalable Vector Graphic-->
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"  
-     width="55" 
-     height="45">
-	
+     width="56" 
+     height="40">
 	
 	<style type="text/css">
+		
 
-		
 text {
-font-size: 50px;
-fill:black;
+font-family:"Atto", Arial, sans-serif;
+font-size: 80px;
+fill:white;
 }
-		
+
 </style>
 
-<text id="arrow" y="40">⬅</text>
+<text y="45">✉</text>
 	
 	
 </svg>
