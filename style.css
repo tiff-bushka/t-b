@@ -110,7 +110,7 @@ img {
 	margin-bottom:10vh;
 	top:0;
 	left:0;
-  cursor: url('./w-arrow.svg') 0 45, w-resize;
+  cursor: url('./w-arrow.svg') 0 20, w-resize;
 	background-color: transparent;
 	z-index:4;
 	  -webkit-user-select: none; /* webkit (safari, chrome) browsers */
@@ -126,7 +126,7 @@ img {
 	margin-bottom:10vh;
 	top:0;
 	right:0px;
- cursor: url('./e-arrow.svg') 0 45, e-resize;
+ cursor: url('./e-arrow.svg') 0 20, e-resize;
 	background-color: transparent;
 	z-index:3;
 	  -webkit-user-select: none; /* webkit (safari, chrome) browsers */
@@ -184,7 +184,7 @@ a:active {text-decoration:none;}
 }
 
 .exit {
-		 cursor: url('./exit.svg') 0 45, default;
+		 cursor: url('./exit.svg') 0 20, pointer !important;
 }
 
 
@@ -220,7 +220,6 @@ a:active {text-decoration:none;}
 #infopage .hideinfo {
 	position:fixed;
 	font-size:64px;
-	cursor: pointer;
 	bottom:42px;
 	text-align: left;
 	left:18px;
@@ -231,10 +230,13 @@ a:active {text-decoration:none;}
 #info {
 	position:fixed;
 	letter-spacing:-10px;
-	top:22px;
+	height:100%;
+	text-align: center;
+	width:130px;
+	top:0px;
 	left:40px;
 	z-index:5;
-	cursor: pointer;
+	cursor:url('./info.svg') 0 20, pointer;;
 	transform-origin:top left; 
 	transform: rotate(90deg);
 	color:var(--text-color);

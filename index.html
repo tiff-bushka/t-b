@@ -16,7 +16,7 @@
 <body>
 
 	
-	<div id="infopage"><div class="buffer toggle exit"></div><div class="text-container">
+	<div id="infopage"><div class="buffer toggle"></div><div class="text-container">
 		<div>
 			<span class="jump active">
 			<span class="j1">t</span><span class="j2">i</span><span class="j3">f</span><span class="j4">f</span><span class="j5">&nbsp;</span><span class="j6">b</span><span class="j7">u</span><span class="j8">s</span><span class="j9">h</span><span class="j10">k</span><span class="j11">a</span>
@@ -118,6 +118,7 @@
 	$(".toggle").click(function(){
         $("#infopage").fadeToggle(150);
 		$(".buffer").fadeToggle(150);
+		$(".toggle").toggleClass("exit");
     });
 	
     $(".m-exit").click(function(){

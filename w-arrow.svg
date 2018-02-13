@@ -1,8 +1,8 @@
 <!--Scalable Vector Graphic-->
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"  
-     width="50" 
-     height="50">
+     width="70" 
+     height="70">
 	
 	
 	<style type="text/css">
@@ -15,7 +15,7 @@ fill:black;
 		
 </style>
 
-<text id="arrow" y="50">⬅</text>
+<text id="arrow" y="70">⬅</text>
 	
 	
 </svg>
