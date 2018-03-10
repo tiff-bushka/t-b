@@ -1,7 +1,7 @@
 <!--Scalable Vector Graphic-->
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"  
-     width="35" 
+     width="30" 
      height="45">
 	
 	<style type="text/css">
@@ -9,13 +9,13 @@
 
 text {
 font-family:"Atto", Arial, sans-serif;
-font-size: 45px;
+font-size: 40px;
 fill:black;
 }
 
 </style>
 
-<text y="39">✕</text>
+<text y="36">✕</text>
 	
 	
 </svg>
