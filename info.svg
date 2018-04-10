@@ -1,8 +1,14 @@
 <!--Scalable Vector Graphic-->
 <svg xmlns="http://www.w3.org/2000/svg" 
      xmlns:xlink="http://www.w3.org/1999/xlink"  
+<<<<<<< HEAD
      width="30" 
      height="45">
+=======
+     width="35px" 
+     height="45px"
+     shape-rendering="crispEdges">
+>>>>>>> origin/master
 	
 	<style type="text/css">
 		
