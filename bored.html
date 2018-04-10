@@ -1,0 +1,54 @@
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+<title>bored</title>
+
+<style type="text/css">
+	
+	.container {
+		height:100vh;
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	
+	.widget {
+max-width: 50%;
+	}
+	
+</style>
+	
+</head>
+	
+<body>
+
+	<div class="container">
+		
+		<audio preload="auto" id="sigh-1" >
+			<source src="./sigh-1.mp3"></source>
+			<source src="./sigh-1.ogg"></source>
+		</audio>
+		
+		<audio preload="auto" id="sigh-2" >
+			<source src="./sigh-2.mp3"></source>
+			<source src="./sigh-2.mp3"></source>
+		</audio>
+	
+
+
+		<div class="widget">
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=bored" data-widget-id="983530176373026816">Tweets about bored</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+	</div>
+</body>
+<script src="./jquery-3.2.1.min.js"></script>
+	<script src="./jquery-ui.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+	$(".widget, a").mouseenter(function() {
+    $("#sigh-" + Math.ceil(Math.random() * 2))[0].play();
+});
+</script>
+
+</html>
