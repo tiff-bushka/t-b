@@ -1,0 +1,325 @@
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="tiff.pics/gifs.html" resolutions="1x" timestamp="1525103067708">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="482845432" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="340535759" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="310584261" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="circle01.gif" crc="4153356516" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cubo.gif" crc="226380621" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ag00135.gif" crc="3836350352" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ancircleingsold2.gif" crc="4248620320" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="e.gif" crc="3784177867" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="expres_004.gif" crc="4282139430" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="yeux_035.gif" crc="3792942194" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tete_007.gif" crc="331982874" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="expres_019.gif" crc="93230958" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="smiley_159.gif" crc="17298688" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="smiley_1434.gif" crc="300231547" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="smiley_1493.gif" crc="89747782" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_2_051.gif" crc="256992943" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_089.gif" crc="4265880195" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_003.gif" crc="4222871283" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_011.gif" crc="355631080" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_078.gif" crc="4225220400" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_2_017.gif" crc="4209289165" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_093.gif" crc="3928522869" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_2_020.gif" crc="4155945011" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_035.gif" crc="364425808" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_025.gif" crc="511224478" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_037.gif" crc="3879075161" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_031.gif" crc="450271889" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_002.gif" crc="226801416" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_004.gif" crc="113651027" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_059.gif" crc="4283207275" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_094.gif" crc="287907166" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_091.gif" crc="324440745" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ligne_1_015.gif" crc="250333068" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="staticity-mono-green.gif" crc="4137295748" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="circle1.gif" crc="4017683531" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="green_6.gif" crc="92690964" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tractor_green_clr.gif" crc="4213325934" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="greenconrad.gif" crc="247130637" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="email-2.gif" crc="215493636" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="yukgreen.gif" crc="440341978" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="contactk.gif" crc="15468845" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="green_flame.gif" crc="92688957" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="greenbut.gif" crc="14771803" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="greenskull.gif" crc="102639508" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chef_knife_chopping_board_green_peppers.gif" crc="4237685782" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="greenweb.gif" crc="4286664722" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="thinkgreen.gif" crc="141980925" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chainbar.gif" crc="3813879268" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chain-5.gif" crc="253003130" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chain-4.gif" crc="401218870" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chainlinkspind.gif" crc="267870287" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chain2.gif" crc="255218186" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="linkschain.gif" crc="51773900" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chain_left.gif" crc="457322416" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chain-3.gif" crc="457878580" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chain-2.gif" crc="514301864" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chainlink.gif" crc="4171994508" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chain_dark.gif" crc="3786465960" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chainbar-1.gif" crc="432829608" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chain.gif" crc="472585685" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chain_2.gif" crc="4055133097" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="small_chain.gif" crc="4054817416" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="red_chain.gif" crc="3881845401" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chain-7.gif" crc="409908741" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chain-6.gif" crc="4087181" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chain4.gif" crc="316509480" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chain2-1.gif" crc="4053159182" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mailmenu.gif" crc="4021753520" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blmail.gif" crc="286717291" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mail1.gif" crc="15906684" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="maileatr.gif" crc="4256002275" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mailme.gif" crc="305673524" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mailwrite.gif" crc="3807687052" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mail-2.gif" crc="63780588" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="snail_md_wht.gif" crc="298681563" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="palomail.gif" crc="4114347495" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mail-1.gif" crc="242997874" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="puter-mail.gif" crc="29796437" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mail.gif" crc="414750269" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="eyemail.gif" crc="297620313" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="email6.gif" crc="4240994990" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="smiley_face.gif" crc="3850082282" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="email.gif" crc="227079028" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="email22.gif" crc="4086410520" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="email-1.gif" crc="81520994" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="walkincat.gif" crc="9643" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="robwalk.gif" crc="3762332574" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="felixwalk.gif" crc="4195285587" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="stickman2.gif" crc="439079312" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="succwalk.gif" crc="96727330" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="raptor_walk_md_clr.gif" crc="4244172896" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="generalcartwalk.gif" crc="161105" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="walkclr.gif" crc="3847650260" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tigerwalk.gif" crc="4124272241" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="man-walk.gif" crc="121338430" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="wolfwalk.gif" crc="4251148550" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="brachio_walk_md_wht.gif" crc="4268261354" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="annwalkcat.gif" crc="30513008" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="rogue_walk_m.gif" crc="4015353233" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cooked_turkey_walking_md_wht.gif" crc="425045764" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="skelwalk.gif" crc="482775318" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="elkwalk.gif" crc="427709514" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pandawalk.gif" crc="420989165" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="walk.gif" crc="3947499400" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="walkbud.gif" crc="3798453400" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="444973220" seo="true" mt="1525051634245" redirect="true"/>
+</manifest>
