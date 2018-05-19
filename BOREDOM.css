@@ -1,0 +1,54 @@
+<style type="text/css">
+	
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+:: -moz-scrollbar { 
+    display: none; 
+}
+
+
+		body {
+			padding:0;
+        	margin:0;
+			font-family: sans-serif, monospace;
+			font-weight: 800;
+			font-size: 4vh;
+			letter-spacing: 2px;
+			line-height: 5vh;
+			hyphens: none;
+			-webkit-hyphens: none;
+    		-moz-hyphens: none;
+		}
+	
+		#left {
+			padding:18px;
+			width:50vw;
+			overflow: scroll;
+			text-overflow: ellipsis;
+			background-color:white;
+		}
+
+#right {
+	padding:18px;
+	position:fixed;
+	width:50vw;
+	height:100vh;
+right:0;
+	top:0;
+	white-space: normal;
+	background-color:white;
+}
+
+.selected {text-decoration: underline;}
+
+.open {cursor: pointer;}
+
+.page {display: none;
+		position:absolute;
+white-space: normal;
+width:inherit;
+overflow:auto;
+text-overflow: ellipsis;}
