@@ -311,7 +311,7 @@ img {
 	
 	#infopage {margin:0; height:100vh; width:100vw;}
 	
-	#infopage .hideinfo {color:white; top:44px; left:auto; right:18px;}
+	#infopage .hideinfo {color:white; top:44px; left:auto; right:18px; cursor: pointer;}
 	
 	@-webkit-keyframes jump {
     0% {
