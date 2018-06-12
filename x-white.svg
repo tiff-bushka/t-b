@@ -1,0 +1,21 @@
+<!--Scalable Vector Graphic-->
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink"  
+     width="30" 
+     height="45">
+	
+	<style type="text/css">
+		
+
+text {
+font-family:"Atto", Arial, sans-serif;
+font-size: 40px;
+fill:white;
+}
+
+</style>
+
+<text y="36">✕</text>
+	
+	
+</svg>
