@@ -188,7 +188,7 @@ a:active {text-decoration:none;}
 }
 
 .exit {
-		 cursor: url('./x.svg') 0 0, pointer !important;
+		 cursor: url('./x.svg') 0 0, pointer;
 }
 
 #infopage .exit {
