@@ -187,11 +187,15 @@ a:active {text-decoration:none;}
 	z-index: 5;
 }
 
-.exit {
-		 cursor: url('./x.svg') 0 0, pointer;
+.buffer.exit {
+		 cursor: url('./x.svg') 0 0, pointer !important;
 }
 
-#infopage .exit {
+.info.exit {
+		 cursor: url('./x.svg') 0 0, pointer !important;
+}
+
+.text-container.exit {
 	cursor: url('./x-white.svg') 0 0, pointer !important;
 }
 
