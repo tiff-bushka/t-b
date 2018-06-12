@@ -3,7 +3,7 @@
      xmlns:xlink="http://www.w3.org/1999/xlink"  
      width="30" 
      height="45"
-     shape-rendering="crispEdges">
+     shape-rendering="geometricPrecision">
 	
 	<style type="text/css">
 		
