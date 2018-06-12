@@ -17,6 +17,10 @@
 	mix-blend-mode: color;
 }
 
+::-webkit-scrollbar-track {
+    display: none;
+}
+
 :root {
   --text-color:black;
   --hover-color:black;
@@ -160,7 +164,7 @@ a:active {text-decoration:none;}
 	width:calc(100vw - 88px);
 	height:100vh;
 	margin-left:88px;
-	background-color:#d5f112;
+	background-color:black;
 	top:0;
 	left:0;
 	z-index:5;
@@ -185,6 +189,10 @@ a:active {text-decoration:none;}
 
 .exit {
 		 cursor: url('./x.svg') 0 0, pointer !important;
+}
+
+#infopage .exit {
+	cursor: url('./x-white.svg') 0 0, pointer !important;
 }
 
 #infopage a {color:white; border-color:white;}
